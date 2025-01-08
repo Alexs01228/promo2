@@ -4,8 +4,7 @@ let balance = parseInt(localStorage.getItem('balance')) || 0;
 function completeTask(reward, taskUrl) {
    
     if (localStorage.getItem(taskUrl) === 'true') {
-        alert('You have already completed this task.');
-        return;
+       return;
     }
 
  
